@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npm run watch & npm run serve",
+    "start": "./dev.sh",
     "watch": "watchify src/main.js -o src/bundle.js",
     "serve": "cd src && live-server",
     "build": "browserify src/main.js -o src/bundle.js",
