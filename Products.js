@@ -6,8 +6,8 @@ var products = [
     price: 100,
   },
   {
-    name: 'Produkt12312312',
-    description: 'Opis Produktu 2',
+    name: 'Produkt 2',
+    description: 'Opisdfs Produktu 2',
     price: 50,
   },
   {
