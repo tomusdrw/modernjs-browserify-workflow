@@ -1,5 +1,5 @@
-var customer = {};
-var products = [
+const customer = {};
+export const products = [
   {
     name: 'Produkt 1',
     description: 'Opis Produktu 1',
@@ -17,7 +17,6 @@ var products = [
   },
 ];
 
-exports.products = products;
 // module.exports = {
 //  product: products
 // };

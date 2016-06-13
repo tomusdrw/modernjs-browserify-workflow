@@ -1,8 +1,9 @@
 
-var model = require('./Products');
-var renderProducts = require('./ProductsView');
+// const model = require('./Products');
+import {products} from './Products';
+const renderProducts = require('./ProductsView');
 
 renderProducts(
   document.querySelector('#app'),
-  model.products
+  products
 );
