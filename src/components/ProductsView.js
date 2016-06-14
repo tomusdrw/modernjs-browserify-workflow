@@ -1,6 +1,5 @@
-module.exports = renderProducts;
 
-function renderProducts($app, products) {
+export function renderProducts($app, products) {
   for (var k in products) {
     var product = products[k];
     $app.appendChild(document.createTextNode(

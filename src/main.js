@@ -1,7 +1,7 @@
 
 // const model = require('./Products');
-import {products} from './Products';
-const renderProducts = require('./ProductsView');
+import products from './components/Products';
+import {renderProducts} from './components/ProductsView';
 
 renderProducts(
   document.querySelector('#app'),

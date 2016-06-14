@@ -1,5 +1,5 @@
-const customer = {};
-export const products = [
+export const customer = {};
+export default [
   {
     name: 'Produkt 1',
     description: 'Opis Produktu 1',
@@ -16,6 +16,11 @@ export const products = [
     price: 125,
   },
 ];
+// export default class Product {
+//   constructor () {
+//   
+//   }
+// }
 
 // module.exports = {
 //  product: products
